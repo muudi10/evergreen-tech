@@ -1,0 +1,32 @@
+{
+ 
+  "name": "evergreen-tech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muudi10/evergreen-tech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muudi10/evergreen-tech/issues"
+  },
+  "homepage": "https://github.com/muudi10/evergreen-tech#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "hapi": "^18.1.0",
+    "mongoose": "^6.3.6"
+  },
+  "devDependencies": {
+    "http-mock": "^0.1.0",
+    "jest": "^28.1.1",
+    "supertest": "^6.2.3"
+  }
+}
