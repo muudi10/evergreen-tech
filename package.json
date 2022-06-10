@@ -1,10 +1,12 @@
 {
- 
   "name": "evergreen-tech",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node index.js",
+    "test:integration": "jest --forceExit test/integration/*"
+
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,7 @@
   "devDependencies": {
     "http-mock": "^0.1.0",
     "jest": "^28.1.1",
+    "node-mocks-http": "^1.11.0",
     "supertest": "^6.2.3"
   }
 }
